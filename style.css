@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#inovacoes {
+    width: 200px;
+    height: 200px;
+}
+
+body{
+    background-color: rgb(102, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: white;
+    align-content: justify;
+    margin: 0px;
+}
+
+#menu{
+    margin-left: 30px;
+}
+
+main{
+    text-align: center;
+}
+
+#image {
+    width: 500px;
+}
+
+#titulo {
+    margin: 30px;
+    color: white;
+}

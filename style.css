@@ -1,37 +1,103 @@
 *{
     padding: 0;
     margin: 0;
-}
+} 
+/*Aqui definimos um estilo global*/
 
 #inovacoes {
     width: 200px;
-    height: 200px;
 }
+/*Aqui definimos um tamanho para a imagem de id "inovacoes"*/
 
 body{
-    background-color: rgb(102, 100, 100);
+    background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*Aqui definimos o estilo do body que terá font arial e background de cor branca*/
 
 header{
-    background-color: white;
-    align-content: justify;
-    margin: 0px;
+    background-color: rgb(230, 221, 221);
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+}
+/*Aqui definimos o estilo do header que terá background cinza claro, fonte arial, não terá margem e o conteúdo estará justificado*/
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-content: center;
 }
 
 #menu{
-    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+/*Aqui definimos o estilo do id "menu" que terá margem de 30px na esquerda*/
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+li{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 main{
     text-align: center;
 }
+/*Aqui definimos o estilo da tag main que terá o texto alinhado no centro*/
 
 #image {
     width: 500px;
+    margin-bottom: 30px;
 }
+/*Aqui definimos o estilo do id "image" que terá tamanho 500px e margem inferior de 30px*/
 
 #titulo {
     margin: 30px;
-    color: white;
+    color: #000;
 }
+/*Aqui definimos o estilo do id "titulo" que terá margem de 30px e cor preta*/
+
+#icon {
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+/*Aqui definimos o estilo do id "icon" que terá tamanho 30px, margem superior de 30px e margem esquerda de 30 px*/
+
+footer{
+    background-color: rgb(230, 221, 221);
+    align-content: justify;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Aqui definimos o estilo do footer que terá background cinza claro, fonte arial, não terá margem e o conteúdo estará justificado*/
+
+#divisao {
+    margin-left: 30px;
+    padding: 15px;
+}
+/*Aqui definimos o estilo do id "divisao" que terá tamanho 30px e espaçamento de 15px*/
+
+#info{
+    padding: 15px;
+}
+/*Aqui definimos o estilo do id "info" que terá espaçamento de 15px*/
+
+#mapa {
+    width: 300px;
+}
+/*Aqui definimos o estilo do id "mapa" que terá tamanho 300px*/

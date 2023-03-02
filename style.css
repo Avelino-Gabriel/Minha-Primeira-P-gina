@@ -2,12 +2,15 @@
     padding: 0;
     margin: 0;
 } 
-/*Aqui definimos um estilo global*/
+/*Aqui definimos um estilo global que terá margem e padding igual a 0*/
 
 #inovacoes {
-    width: 200px;
+    width: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
 }
-/*Aqui definimos um tamanho para a imagem de id "inovacoes"*/
+/*Aqui definimos um tamanho para a imagem de id "inovacoes" que terá 250px, além disso, definimos uma margem esquerda de 30px, uma margem direitas de 30px e uma margem inferior de 10px*/
 
 body{
     background-color: #fff;
@@ -21,55 +24,48 @@ header{
     display: flex;
 }
 /*Aqui definimos o estilo do header que terá background cinza claro, fonte arial, não terá margem e o conteúdo estará justificado*/
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
     align-content: center;
 }
+/*Aqui definimos o estilo do nav que terá display flex, ficará em linha, o conteúdo estará distribuído pelo espaço e o alinhamento será central*/
 
 #menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    flex-wrap: wrap;
 }
-/*Aqui definimos o estilo do id "menu" que terá margem de 30px na esquerda*/
+/*Aqui definimos o estilo do id "menu" que terá display flex, ficará em linha, o conteúdo será justificado pelo espaço e o alinhamento do conteúdo será no centro*/
 
 ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+/*Aqui definimos o estilo do ul que terá display flex, ficará em linha e o conteúdo estará distribuído pelo espaço*/
 
 li{
-    padding-top: 1.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-
-li{
+    padding-top: 3rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 main{
     text-align: center;
 }
 /*Aqui definimos o estilo da tag main que terá o texto alinhado no centro*/
 
 #image {
-    width: 500px;
-    margin-bottom: 30px;
+    width: 50%;
 }
 /*Aqui definimos o estilo do id "image" que terá tamanho 500px e margem inferior de 30px*/
-
-#titulo {
-    margin: 30px;
-    color: #000;
-}
-/*Aqui definimos o estilo do id "titulo" que terá margem de 30px e cor preta*/
 
 #icon {
     width: 30px;
@@ -78,10 +74,46 @@ main{
 }
 /*Aqui definimos o estilo do id "icon" que terá tamanho 30px, margem superior de 30px e margem esquerda de 30 px*/
 
+#Sobre {
+    display: flex;
+    background-image: url(./img/Equipe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+#paragrafo {
+    padding-bottom: 75px;
+    font-size: large;
+}
+
+#paragrafo-sobre{
+    padding-bottom: 150px;
+    font-size: large;
+}
+
+#titulo {
+    margin: 30px;
+    padding-top: 50px;
+    color: #000;
+    font-size: 30px;
+}
+
+#titulo-sobre {
+    margin: 30px;
+    padding-top: 150px;
+    color: #ffffff;
+    font-size: 30px;
+}
+/*Aqui definimos o estilo do id "titulo" que terá margem de 30px e cor preta*/
+
 footer{
     background-color: rgb(230, 221, 221);
-    align-content: justify;
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
     font-family: Arial, Helvetica, sans-serif;
 }
 /*Aqui definimos o estilo do footer que terá background cinza claro, fonte arial, não terá margem e o conteúdo estará justificado*/
@@ -101,3 +133,56 @@ footer{
     width: 300px;
 }
 /*Aqui definimos o estilo do id "mapa" que terá tamanho 300px*/
+
+#button {
+    height: 35px;
+    width: 200px;
+    background-color: rgb(230, 221, 221);
+    border-radius: 15px;
+}
+
+#loja {
+    padding-left: 200px;
+    padding-top: 2.5rem;
+}
+
+#IA {
+    display: flex;
+    justify-content: space-between;
+}
+#Robotica {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Sistemas {
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-ia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#text-rob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 60px;
+}
+
+#text-sis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 150px;
+    padding-left: 0px;
+}

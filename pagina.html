@@ -8,14 +8,19 @@
     <!--Aqui linkamos o CSS e definimos as informações do site-->
     <body>
         <header>
-                <img src="./img/Inovacoes.png" id="inovacoes">
+                <img src="./img/Icon.png" id="inovacoes">
                 <!--Aqui temos o logo da empresa-->
                 <nav>
                     <ul>
                         <li><a><h3>Sobre Nós</h3></a></li>
+                        <li><a><h3>Inteligência Artificial</h3></a></li>
                         <li><a><h3>Robótica</h3></a></li>
                         <li><a><h3>Sistemas Integrados</h3></a></li>
                     </ul>
+                    <div id="loja">
+                        <button id="button">Loja Virtual</button>
+                    </div>
+                    
                 </nav>
                 <!--Aqui criamos um menu de navegação-->
             <!--Aqui colocamos uma divisão-->
@@ -23,32 +28,44 @@
         <!--Aqui definimos o cabeçalho da página que possui o título/logo e o menu de navegação-->
 
         <main>
-            <h2 id="titulo">Sobre Nós</h2>
-            <!--Aqui definimos o título da seção-->
-            <img src="./img/Equipe.jpg" id="image">
-            <!--Aqui colocamos uma imagem-->
-            <p id="paragrafo">
+            <div id="Sobre">
+                <h2 id="titulo-sobre">Sobre Nós</h2>
+                <!--Aqui definimos o título da seção-->
+                <p id="paragrafo-sobre">
                 Somos uma equipe de profissionais especializada em IA, robótica e sistemas integrados.
-            </p>
-            <!--Aqui adicionamos um parágrafo-->
-
-            <h2 id="titulo">Inteligência Artificial</h2>
-            <img src="./img/IA.jpeg" id="image">
-            <p>
-                Produzimos IAs com diferentes funcionalidades, desde gerenciamento a atividades mais simples do dia a dia.
-            </p>
-
-            <h2 id="titulo">Robótica</h2>
-            <img src="./img/Robótica.jpg" id="image">
-            <p id="paragrafo">
-                Trabalhamos na criação de robôs tanto para o ambiente industrial como para o ambiente doméstico.
-            </p>
-
-            <h2 id="titulo">Sistemas Integrados</h2>
-            <img src="./img/Sistemas.jpg" id="image">
-            <p id="paragrafo">
-                Construímos sistemas integrados para a automação das atividades de empresas.
-            </p>
+                </p>
+                <!--Aqui adicionamos um parágrafo-->
+            </div>
+            
+            <div id="IA">
+                <img src="./img/IA.jpeg" id="image">
+                <div id="text-ia">
+                    <h2 id="titulo">Inteligência Artificial</h2>
+                    <p id="paragrafo">
+                        Produzimos IAs com diferentes funcionalidades, desde gerenciamento a atividades mais simples do dia a dia.
+                    </p>
+                </div>
+            </div>
+            
+            <div id="Robotica">
+                <div id="text-rob">
+                    <h2 id="titulo">Robótica</h2>
+                    <p id="paragrafo">
+                        Trabalhamos na criação de robôs tanto para o ambiente industrial como para o ambiente doméstico.
+                    </p>
+                </div>
+                <img src="./img/Robótica.jpg" id="image">
+            </div>
+            
+            <div id="Sistemas">
+                <img src="./img/Sistemas.jpg" id="image">
+                <div id="text-sis">
+                    <h2 id="titulo">Sistemas Integrados</h2>
+                    <p id="paragrafo">
+                        Construímos sistemas integrados para a automação das atividades de empresas.
+                    </p>
+                </div>
+            </div>
         </main>
         <!--Aqui há o conteúdo principal da página-->
 
